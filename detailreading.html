@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Ejaz khan HTML</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <table bgcolor="#171717" width="1350px" align="center" sellpadding="5">
+                <tr>
+                    <td width="150">
+                        <table cellpadding="10">
+                            <tr>
+                    <td>
+                        <span><font face="Open Sans" color="whitegray" size="2">MENU</font></span>
+                    </td>
+                    <td>
+                        <span><font face="Open Sans" color="whitegray" size="2">SERVICES</font></span>
+                    </td>   
+                    <td>
+                        <span><font face="Open Sans" color="whitegray" size="2">CONTACT</font></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="search">
+                    </td>
+                </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <span>
+                            <center>
+                                <img src="images/logo.png" alt="Logo" width="150px"><br><br>
+                                <span><font face="Open Sans" color="white" size="4">Projects</font></span>
+                                &nbsp;&nbsp;
+                                <span><font face="Open Sans" color="white" size="4">Dapps</font></span>
+                                &nbsp;&nbsp;
+                                <span><font face="Open Sans" color="white" size="4">Developments</font></span>
+                                &nbsp;&nbsp;
+                                <span><font face="Open Sans" color="white" size="4">Blockchain</font></span>
+                                &nbsp;&nbsp;
+                            </center>
+                        </span>
+                    </td>
+                    <td width="50px">
+                      <center><font color="white" size="7">&equiv;</font></center>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <!-- header end -->
+        <tr>
+            <td>
+                <h1 align="center"><font face="Open Sans" size="10">Deatl Reading About Blockchain Uses</font></h1>
+            </td>
+        </tr>
+        <p><font face="Open Sans"><pre>For other uses, see Block chain (disambiguation).
+
+            Bitcoin blockchain structure
+            A blockchain is a growing list of records, called blocks, that are linked together using cryptography.[1][2][3][4] Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data (generally represented as a Merkle tree). The timestamp proves that the transaction data existed when the block was published in order to get into its hash. As blocks each contain information about the block previous to it, they form a chain, with each additional block reinforcing the ones before it. Therefore, blockchains are resistant to modification of their data because once recorded, the data in any given block cannot be altered retroactively without altering all subsequent blocks.
+            
+            Blockchains are typically managed by a peer-to-peer network for use as a publicly distributed ledger, where nodes collectively adhere to a protocol to communicate and validate new blocks. Although blockchain records are not unalterable as forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance.[5]
+            
+            The blockchain was popularized by a person (or group of people) using the name Satoshi Nakamoto in 2008 to serve as the public transaction ledger of the cryptocurrency bitcoin, based on work by Stuart Haber, W. Scott Stornetta, and Dave Bayer.[3][6] The identity of Satoshi Nakamoto remains unknown to date. The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server. The bitcoin design has inspired other applications[3][2] and blockchains that are readable by the public and are widely used by cryptocurrencies. The blockchain is considered a type of payment rail.[7]
+            
+            Private blockchains have been proposed for business use. Computerworld called the marketing of such privatized blockchains without a proper security model "snake oil";[8] however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones.[4][9]
+            
+            
+            Contents
+            1	History
+            2	Structure
+            2.1	Blocks
+            2.2	Decentralization
+            2.3	Openness
+            2.4	Standardisation
+            3	Uses
+            3.1	Cryptocurrencies
+            3.2	Smart contracts
+            3.3	Financial services
+            3.4	Games
+            3.5	Energy trading
+            3.6	Supply chain
+            3.7	Anti-counterfeiting
+            3.8	Healthcare
+            3.9	Domain names
+            3.10	Other uses
+            4	Types
+            4.1	Public blockchains
+            4.2	Private blockchains
+            4.3	Hybrid blockchains
+            4.4	Sidechains
+            5	Blockchain interoperability
+            6	Energy consumption concerns
+            7	Academic research
+            7.1	Adoption decision
+            7.2	Collaboration
+            7.3	Blockchain and internal audit
+            7.4	Journals
+            8	See also
+            9	References
+            10	Further reading
+            11	External links
+            History
+            
+            Bitcoin, Ethereum and Litecoin transactions per day (January 2011 – January 2021)
+            Cryptographer David Chaum first proposed a blockchain-like protocol in his 1982 dissertation "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups."[10] Further work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and W. Scott Stornetta.[4][11] They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees to the design, which improved its efficiency by allowing several document certificates to be collected into one block.[4][12] Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995.[6]
+            
+            The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the chain.[4] The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network.[3]
+            
+            In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred on the network, reached 20 GB (gigabytes).[13] In January 2015, the size had grown to almost 30 GB, and from January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size had exceeded 200 GB by early 2020.[14]
+            
+            The words block and chain were used separately in Satoshi Nakamoto's original paper, but were eventually popularized as a single word, blockchain, by 2016.[citation needed]
+            
+            According to Accenture, an application of the diffusion of innovations theory suggests that blockchains attained a 13.5% adoption rate within financial services in 2016, therefore reaching the early adopters phase.[15] Industry trade groups joined to create the Global Blockchain Forum in 2016, an initiative of the Chamber of Digital Commerce.
+            
+            In May 2018, Gartner found that only 1% of CIOs indicated any kind of blockchain adoption within their organisations, and only 8% of CIOs were in the short-term "planning or [looking at] active experimentation with blockchain".[16] For the year 2019 Gartner reported 5% of CIOs believed blockchain technology was a 'game-changer' for their business.[1</pre></font></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <table bgcolor="#ecf0f1" width="1350px" align="center" cellpadding="15px">
+                <tr>
+                    <td><font face="Open Sans">Payment & Security</font></td>
+                    <td><font face="Open Sans">Services</font></td>
+                    <td><font face="Open Sans">Social Media</font></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <img src="images/card 2.jpg" width="200px" alt="Card">
+                    </td>
+                    <td valign="top">
+                        <ul type="none">
+                            <li><font face="Open Sans">Dapps</font></li>
+                            <li><font face="Open Sans">Blockchain Developments</font></li>
+                            <li><font face="Open Sans">Smart Contracts</font></li>
+                            <li><font face="Open Sans">Etherium Dapps</font></li>
+                            <li><font face="Open Sans">Metaverse</font></li>
+                            <li><font face="Open Sans">Blockchain</font></li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <table>
+                            <tr>
+                                <td><img src="images/icons.jpg" width="200px" alt="Social Icon"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+        <!-- footer end  -->
+    </div>
+</body>
+</html>
